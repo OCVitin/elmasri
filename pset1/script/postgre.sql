@@ -1,6 +1,6 @@
 -- Database: uvv
 -- criando superusuário
-CREATE ROLE Vitor
+CREATE ROLE vitor
 	WITH
   	LOGIN
 	SUPERUSER
@@ -10,11 +10,11 @@ CREATE ROLE Vitor
 	REPLICATION;
 	
 -- selecionando usuário
-ALTER ROLE Vitor;
+ALTER ROLE vitor;
 -- criando o banco de dados
 CREATE DATABASE uvv 
     WITH
-    OWNER  Vitor
+    OWNER  vitor
     TEMPLATE  template0
     ENCODING  'UTF-8'
     LC_COLLATE  'pt_BR.UTF-8'
@@ -22,12 +22,12 @@ CREATE DATABASE uvv
     ALLOW_CONNECTIONS  true;
 	
 -- conectando o usuário ao banco de dados
-\connect uvv Vitor
+\connect uvv vitor
 -- criando esquema e dando autorização
 CREATE SCHEMA IF NOT EXISTS elmasri
-    AUTHORIZATION Vitor;
+    AUTHORIZATION vitor;
 -- conectando o usuário ao esquema
-SET SEARCH_PATH TO elmasri, Vitor, public;
+SET SEARCH_PATH TO elmasri, vitor, public;
 -- criando a tabela funcionários
 CREATE TABLE elmasri.funcionario (
                 cpf CHAR(11) NOT NULL,
