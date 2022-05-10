@@ -1,10 +1,10 @@
 -- criando e conectando o usuário, criando database
-CREATE USER 'Vitor'@'localhost';
+CREATE USER 'vitor'@'localhost';
 CREATE DATABASE uvv 
 CHARACTER SET utf8mb4 
 COLLATE utf8mb4_unicode_ci;
 USE uvv;
-GRANT CREATE, INSERT, SELECT ON uvv.* to 'Vitor'@'localhost';
+GRANT CREATE, INSERT, SELECT ON uvv.* to 'vitor'@'localhost';
 
 -- criando a tabela funcionario
 CREATE TABLE funcionario (
