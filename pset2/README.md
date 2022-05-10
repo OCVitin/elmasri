@@ -4,7 +4,7 @@ Nessa pasta do repositório está a minha resolução do Pset 2, passado para mi
 
 No projeto do Elmasri, eu pude fazer a atividade tanto no Postgre, quanto no MariaDB, mas escolhi usar o Postgre por uma preferência pessoal. Os dois scripts devem ser rodados no terminal da máquina, começando pelo script do Postgre. Para os forasteiros, que encontraram meu trabalho por acaso e querem executar em seu computador, recomendo ter instalado o PGadmin, ele facilita muito na visualização do script e nas etapas durante sua execução. O terminal deve pedir a senha de um usuário chamado "vitor", logo depois da criação do banco de dados "uvv", a senha é "12345". Após rodar o script do Postgre, o script das respostas deve rodar perfeitamente. Se houver o problema do terminal dizer que uma relação não existe, pode ser que você tenha errado em alguma parte do processo, recomendo dar um DROP no banco de dados uvv e tentar novamente do zero. Esse erro ocorreu algumas vezes comigo, por causa de um bug recorrente no sistema, por isso preferi deixar avisado.
 
-Nesse trabalho tive a companhia de outros alunos, como: Lucas Zanon Guarnier, André Coco Melotti.
+Nesse trabalho tive a companhia de outros alunos, como: Lucas Zanon Guarnier, André Coco Pereira Melotti.
 
 >**Questões do Pset2**:
 >
